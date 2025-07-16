@@ -3,7 +3,7 @@ package("termcolor")
     set_description("A library that supports setting color flags to print colorful character")
 
     add_urls("https://github.com/ACoderOrHacker/ox.termcolor.git")
-    add_versions("0.1.0", "")
+    add_versions("0.1.0", "ac1f5c932bf5930eaa4346e0a390833da0de9015")
 
     on_install(function (package)
         local configs = {}
