@@ -10,7 +10,7 @@ add_rules("mode.debug", "mode.release")
 target("termcolor")
     set_kind("headeronly")
 
-    add_headerfiles("include/**")
+    add_headerfiles("include/(**.hpp)")
     add_rules("utils.install.cmake_importfiles")
     add_rules("utils.install.pkgconfig_importfiles")
 target_end()
